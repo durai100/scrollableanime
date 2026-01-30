@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  overflow-x: hidden;
+}
+
+/* Fixed animation */
+.animation-container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation-container img {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Controls scroll speed */
+.scroll-area {
+  height: 600vh; /* increase = slower animation */
+}
